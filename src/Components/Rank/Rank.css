@@ -1,0 +1,14 @@
+.TitleBr {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .TitleBr {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .f5 {
+    font-size: 0.8rem;
+  }
+}

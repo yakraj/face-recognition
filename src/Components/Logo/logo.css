@@ -1,0 +1,21 @@
+.Image {
+  background: #e3e3e3;
+  border: 1px solid red;
+  border-radius: 10px;
+  position: relative;
+  height: 150px;
+  transition: all 0.5s;
+}
+.Tilt {
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .Image {
+    height: 80px;
+  }
+  .Tilt {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
